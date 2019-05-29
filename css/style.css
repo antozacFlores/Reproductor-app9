@@ -114,12 +114,12 @@ playlist li.active{
 	margin-bottom:20px;
 	margin-top:9px;
 	height:10px;
-	background: ;
+	background:url(../images/progress_bg.png) no-repeat;
 	float:left;
 }
 
 #progress {
-	background: ;
+	background:url(../images/progress.png) no-repeat;
 	height:10px;
 	display: inline-block;
 }
