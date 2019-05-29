@@ -10,7 +10,7 @@ body{
 	font-size: 13px;
 	line-height: 1.5em;
 	color:#FFF;
-	background-color:#3FF;
+	background-color:#000;
 }
 
 .clearfix{
@@ -102,10 +102,10 @@ button#stop{
 	width:100%;
 }
 
-playlist li.active{
+#playlist li.active{
 	font-weight:blod;
 	padding:3px;
-	background:#09F;
+	background:#900;
 }
 
 #progressBar {
