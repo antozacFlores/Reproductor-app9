@@ -96,7 +96,7 @@ var audio;
 	});
 	
 	//Time Duration
-	function ShowDuration(){
+	function showDuration(){
 		$(audio).bind('timeupdate',function(){
 		//Get hours and minutes
 		var s=parseInt(audio.currentTime%60);
