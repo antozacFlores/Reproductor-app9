@@ -20,7 +20,7 @@ initAudio($('#playlist li:first-child'));
 	 }
 	 
 	 $('#audio-player .title').text(title);
-	 $('#audio-player .title').text(artist);
+	 $('#audio-player .artist').text(artist);
 	 
 	 //Insertar Imagen
 	 $('img.cover').attr('src','images/covers/' + cover);
