@@ -80,7 +80,7 @@ initAudio($('#playlist li:first-child'));
 		  });
 		  
 		  		   //Playlist Song Click
-	  $('#playlist').click(function (){
+	  $('#playlist li').click(function (){
 		  audio.pause ();
 		  initAudio($(this));
 		  $('#play').hide()
@@ -91,7 +91,7 @@ initAudio($('#playlist li:first-child'));
 		  });
 		  
 		  //Volumen
-		  $('#volumen').change(function (){
+		  $('#volume').change(function (){
 		  audio.volume = parseFloat(this.value / 10);
 		  });
 		  
@@ -110,6 +110,6 @@ initAudio($('#playlist li:first-child'));
 				  if(audio.currentTime > 0){
 					  value = Math.floor((100/audio.duration)*audio.currentTime);
 				  }
-				  $('#progress').css('width', value+'%');			  
+				  $('#progress').css('width',value+'%');			  
 				  });
 				  }
